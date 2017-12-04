@@ -57,7 +57,7 @@ cd smartcontract
 cd ..
 
 # Build the neo-python docker container
-docker build neo-python -t ./neo-python
+docker build -t neo-python ./neo-python
 
 # Run the neo-python Docker container
 docker run -it -v /absolute/path/to/sunny_dap/smartcontract/compiled:/smartcontract neo-python
